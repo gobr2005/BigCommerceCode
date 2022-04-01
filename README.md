@@ -2,4 +2,4 @@
 Here lays the code that I have created for use with BigCommerce databases in Google's BigQuery
 
 ## Description
-This respository contain copies of SQL code that I created for the ecommerice business. The code is edited so others copy and paste and edit a few details. 
+I currently work for an ecommerce company that uses BigCommerce as our host. This repository is a collection of SQL code I have created for different projects at work. The code stored here was used with Google Cloud's BigQuery platform and connected to Google Data Studio. All code worked when it was created but may need some editing.   
