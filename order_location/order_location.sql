@@ -36,10 +36,11 @@ JOIN
   order_address
 ON
   orders.order_id = order_address.order_id
-WHERE
-  /*
-  This Where statement limits the query to orders that money was exchanged. Refunded was excluded since all products were returned.
+   /*
+  This WHERE statement limits the query to orders that money was exchanged. Refunded was excluded since all products were returned. 
+  See BigCommerce order status meanings here: https://support.bigcommerce.com/s/article/Order-Statuses?language=en_US#order-statuses
   */
+WHERE
   order_status = "Completed"
   OR order_status = "Awaiting Shipment"
   OR order_status = "Partially Shipped"
